@@ -163,7 +163,7 @@ limitations under the License.
   function sendTokenToServer(currentToken) {
     if (!isTokenSentToServer()) {
       console.log('Sending token to server...');
-      // TODO(developer): Send the current token to your server.
+      console.log('**this token would be sent:**', currentToken)
       setTokenSentToServer(true);
     } else {
       console.log('Token already sent to server so won\'t send it again ' +
